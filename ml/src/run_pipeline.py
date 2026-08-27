@@ -22,7 +22,7 @@ from ml.src.features.feature_engineering import generate_skill_tables
 
 def main():
     print("=" * 60, flush=True)
-    print("CAREER INTELLIGENCE ENGINE — DAY 2 DATA PIPELINE RUNNER", flush=True)
+    print("CAREER INTELLIGENCE ENGINE — DATA PIPELINE RUNNER", flush=True)
     print("=" * 60, flush=True)
     
     start_time = time.time()
