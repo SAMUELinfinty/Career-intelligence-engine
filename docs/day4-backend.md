@@ -1,4 +1,4 @@
-# Day 4: Backend Architecture & REST API Documentation
+#  Backend Architecture & REST API Documentation
 
 ## Overview
 
