@@ -1,4 +1,4 @@
-# Day 3: Core Career Intelligence Engine — ML & Recommendation Methodology
+ Core Career Intelligence Engine — ML & Recommendation Methodology
 
 ## Overview
 This document details the mathematical formulation, system architecture, matching logic, skill weighting strategy, learning priority recommendation heuristic, machine learning experiments, evaluation metrics, and practical trade-offs implemented during **Day 3** for the **Career Intelligence Engine**.
