@@ -1,0 +1,140 @@
+.back-link-wrapper {
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+.job-details-header-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.header-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-id-tag {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-family: monospace;
+}
+
+.job-details-title {
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.job-company-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.job-tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tag-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  color: var(--text-main);
+}
+
+.salary-box {
+  color: var(--emerald);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.required-skills-section {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.required-skills-section h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+}
+
+.skills-pill-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.match-section-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+.cta-learning-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, #1e1b4b 0%, var(--bg-card) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+}
+
+.cta-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cta-icon {
+  color: var(--amber);
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.cta-content h4 {
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+  color: #ffffff;
+}
+
+.cta-content p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cta-learning-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
