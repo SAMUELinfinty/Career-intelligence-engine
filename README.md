@@ -1,6 +1,6 @@
 # Career Intelligence Engine
 
-> A practical data-driven portfolio application analyzing technology job postings and user skill profiles to answer core career questions:
+> A practical data-driven application analyzing technology job postings and user skill profiles to answer core career questions:
 > 1. Which jobs are a good match for me?
 > 2. Which career roles fit my current skills?
 > 3. Why does a job match me?
